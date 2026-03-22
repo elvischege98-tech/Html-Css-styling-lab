@@ -1,0 +1,95 @@
+ /* Styling about me */
+ h1{
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    border-radius: 10px;
+    border: 2px solid #958E94;
+    padding: 30px;
+    background-color: #958E94;
+}
+
+h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.About{
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling projects */
+ .Projects{
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 10px solid #958E94;
+}
+
+.projects h2{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.projects p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* styling last part */
+
+.grid-container #Title {
+  grid-area: header;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffd6fa;
+    border-radius: 20px ;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+} 
+
+/* Media query */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
